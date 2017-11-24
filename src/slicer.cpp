@@ -933,6 +933,7 @@ Slicer::Slicer(Mesh* mesh, int initial_layer_thickness, int thickness, int slice
 
     mesh->expandXY(mesh->getSettingInMicrons("xy_offset"));
     log("slice make polygons took %.3f seconds\nSuccess!!!!!!",slice_timer.restart());
+    log("hello!!!");
 }
 
 }//namespace cura
